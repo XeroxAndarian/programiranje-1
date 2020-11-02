@@ -29,6 +29,7 @@ count = 0
 #     with open(f'filmi-{start}-{start + filmov_na_stran - 1}.html', 'w') as f:
 #         f.write(vsebina)
 
+
 filmi = []
 
 for start in range(1, stevilo_filmov, filmov_na_stran):

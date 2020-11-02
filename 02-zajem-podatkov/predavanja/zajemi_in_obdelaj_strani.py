@@ -48,7 +48,7 @@ vzorec_oznake = re.compile(
 vzorec_daljsi_povzetek = re.compile(
     r'<a href="/title/tt\d+/plotsummary.*?&nbsp;&raquo;',
     flags=re.DOTALL
-)
+) 
 
 vzorec_igralcev = re.compile(
     r'Stars?:(?P<igralci>.+?)</p>.*?',
